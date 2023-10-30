@@ -8,8 +8,8 @@ In this Project, a Deployment of a Static website(My Resume) hosted on an Azure 
 2. Blob Storage
 3. Domain name(satishvermacloudlearning.shop)
 
-
-![Overview](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/draw.png)
+### Overview
+![Overview](https://github.com/satishvermacoen/Azure-Projects/blob/main/1.%20Static%20WebSite%20deployment%20and%20hosting%20on%20Azure%20Blob%20Storage/img/Screenshot%20(86).png)
 
 ## Process
 A brief description.
