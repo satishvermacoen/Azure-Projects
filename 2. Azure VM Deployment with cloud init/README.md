@@ -12,6 +12,10 @@ In this Project, a Deployment of Azure and configure as wedserver and ready to w
 ![Overview](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/draw.png)
 
 ## Process
+
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(121).png)
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(122).png)
+
 ### Cloud init.txt
 
 1. Create and save the the cloud init.txt for post package install and deployment configuration.
@@ -32,7 +36,13 @@ runcmd:
   - systemctl nginx restart
 
 ```
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(124).png)
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(125).png)
+
 2. Save this Cloud-init.txt and upload in Azure Portal Cloud Shell(CLI)
+
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(126).png)
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(127).png)
 
 3. Code for VM Deployment and supported Resource.
 
@@ -84,6 +94,7 @@ az vm show --resource-group $rgname --name $vmName --show-details --query [publi
 echo "VM deployment complete."
 
 ```
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(130).png)
 #### Output
 ``` Output
 
@@ -360,6 +371,13 @@ VM Deployment Complete.
 ```bash
 curl #public-ip-address
 ```
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(131).png)![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(132).png)
+
 ## Done for this.
 -----------------------------------
 Some rough work and test deployment when i creating this script and Project.
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(114).png)
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(115).png)
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(118).png)
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(119).png)
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/Screenshot%20(120).png)
