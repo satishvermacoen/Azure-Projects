@@ -1,0 +1,95 @@
+# Static WebSite deployment and hosting on Azure Blob Storage.
+In this Project, a Deployment of a Static website(My Resume) hosted on an Azure Storage account and using Azure blob storage. After pointing it to the domain name.
+### Click here to Go live [satishverma.co](http://satishvermacloudlearning.shop/)
+
+## Azure Resource Created
+
+1. Azure Storage account
+2. Blob Storage
+3. Domain name(satishvermacloudlearning.shop)
+
+
+![Overview](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/draw.png)
+
+## Process
+A brief description.
+
+### Configuration of Azure Storge Account
+
+1. Crate a resource group on Azure to deploy the resources on that
+Choose the subscription, the name and the region to be deployed.
+
+2. Create a stoarge account and with basic detail as required to create.
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/1.%20Static%20WebSite%20deployment%20and%20hosting%20on%20Azure%20Blob%20Storage/img/Screenshot%20(79).png)
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/1.%20Static%20WebSite%20deployment%20and%20hosting%20on%20Azure%20Blob%20Storage/img/Screenshot%20(80).png)
+
+3. Enabled static website option in storage account.
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/1.%20Static%20WebSite%20deployment%20and%20hosting%20on%20Azure%20Blob%20Storage/img/Screenshot%20(81).png)
+
+4. Upload website contain in $web container. Config index.html file with Static website in index document name.
+
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/1.%20Static%20WebSite%20deployment%20and%20hosting%20on%20Azure%20Blob%20Storage/img/Screenshot%20(82).png)
+
+5. login to godaddy.com.
+
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/1.%20Static%20WebSite%20deployment%20and%20hosting%20on%20Azure%20Blob%20Storage/img/Screenshot%20(83).png)
+
+6. Config the wesite forwarding mask on domain name.
+
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/1.%20Static%20WebSite%20deployment%20and%20hosting%20on%20Azure%20Blob%20Storage/img/Screenshot%20(84).png)
+
+7. Website is live.
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/1.%20Static%20WebSite%20deployment%20and%20hosting%20on%20Azure%20Blob%20Storage/img/Screenshot%20(85).png)
+
+8. Create a site-to-site VPN Connection
+
+9. Download the configuration file
+
+10. Now let’s create the Local Network Gateway
+
+
+
+
+-git 
+-nginx
+/usr/share/nginx/html
+
+sudo systemctl start nginx
+
+https://stackoverflow.com/questions/49064167/nginx-wont-restart-job-for-nginx-service-failed-because-the-control-proce
+
+101-104
+
+/var/www
+
+
+
+
+#!/bin/bash
+
+# Variables
+resourceGroupName="gitclonetestproject"
+vmName="vm01"
+location="eastus"
+adminUsername="adminmaster"
+adminPassword="@Password12345"
+vmSize="Standard_B1s"
+vnetName="VNet1"
+subnetName="Subnet1"
+nsg="VM1NSG"
+ippublic="ip921public"
+
+# Create a resource group
+az group create --name $resourceGroupName --location $location
+
+# Create a virtual network
+az network vnet create --resource-group $resourceGroupName --name $vnetName --location $location
+
+# Create a subnet
+az network vnet subnet create --resource-group $resourceGroupName --vnet-name $vnetName --name $subnetName
+
+# Create a virtual machine without a public IP address.
+az vm create   --resource-group $resourceGroupName   --name $vmName   --image Ubuntu2204   --size $vmSize   --vnet-name $vnetName   --subnet $subnetName   --admin-username $adminUsername   --admin-password $adminPassword   --public-ip-address "$ippublic"   --nsg $nsg   --custom-data cloud-init.txt   --output json   --verbose
+
+# To open port -80 for http
+az vm open-port --port 80 --resource-group $resourceGroupName --name $vmName

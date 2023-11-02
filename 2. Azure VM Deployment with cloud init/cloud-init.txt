@@ -1,0 +1,13 @@
+#cloud-config
+package_upgrade: true
+packages:
+  - git
+  - nodejs
+  - npm
+  - nginx
+runcmd:
+  - cd "/var/www"
+  - rm -Rf html
+  - cd "/var/www"
+  - git clone "https://github.com/satishvermacoen/html/"
+  - systemctl nginx restart
