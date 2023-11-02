@@ -8,7 +8,7 @@ In this Project, a Deployment of Azure and configure as wedserver and ready to w
 3. Public-IP
 4. NSG
 
-![Overview]()
+![Overview](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/draw.png)
 
 ## Process
 ### Cloud init.txt
@@ -360,3 +360,5 @@ VM Deployment Complete.
 curl #public-ip-address
 ```
 ## Done for this.
+-----------------------------------
+Some rough work and test deployment when i creating this script and Project.
