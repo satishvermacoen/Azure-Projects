@@ -1,3 +1,4 @@
+EVERYTHING IS PRE-CONFIGURED-GIT REPO.
 # 2. Azure VM Deployment with cloud init.
 In this Project, a Deployment of Azure and configure as wedserver and ready to with live website(My Resume) hosted on Azure VM. All this deployment with automate with one script and cloud init.txt.
 <After pointing it to the domain name with the use of Azure DNS.>
@@ -39,7 +40,7 @@ runcmd:
 #!/bin/bash
 
 # Define variables
-rgname="testrg01"
+rgname="rg01"
 location="eastus"
 vmName="vm01"
 adminUsername="satish"
