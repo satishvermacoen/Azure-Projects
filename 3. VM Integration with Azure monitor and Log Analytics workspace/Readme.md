@@ -2,7 +2,7 @@
 
 Integrating Azure Monitor with Azure Virtual Machines (VMs) running Linux involves configuring the Azure Monitor Agent on the VMs. The Azure Monitor Agent collects performance data, logs, and other telemetry from the VMs and sends this data to Azure Monitor. Here are the steps to integrate Azure Monitor with Azure VMs running Linux:
 ### OVERVIEW
-![Overview](https://github.com/satishvermacoen/Azure-Projects/blob/main/2.%20Azure%20VM%20Deployment%20with%20cloud%20init/img/draw.png)
+![Overview](https://github.com/satishvermacoen/Azure-Projects/blob/main/3.%20VM%20Integration%20with%20Azure%20monitor%20and%20Log%20Analytics%20workspace/img/3.VM-Integration%20with%20Azure%20Monitor.png)
 
 ## Prerequisites:
 
