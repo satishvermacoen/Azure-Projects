@@ -1,0 +1,3 @@
+az network public-ip create --resource-group rg-lb-monitor --name publicIpvm-1 --sku Basic --allocation-method Dynamic
+
+az network public-ip create --resource-group rg-lb-monitor --name publicIpvm-2 --sku Basic --allocation-method Dynamic

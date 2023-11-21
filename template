@@ -93,3 +93,27 @@ az vm create   --resource-group $resourceGroupName   --name $vmName   --image Ub
 
 # To open port -80 for http
 az vm open-port --port 80 --resource-group $resourceGroupName --name $vmName
+
+
+sudo sh ./omsagent-*.universal.x64.sh --install -w 5e38eeab-922d-417a-b193-1a743df5f9a5 -s nYsXpT1TYLFd57MH3w2kXo7Qh+GfSqK/OweWDSkcQ729yEO/Hg2yWBWQlo9dOGI98HlnTvwgCHM8zK+Q7EM48w==
+
+
+You can run the Troubleshooter with the following command:
+
+  $ sudo /opt/microsoft/omsagent/bin/troubleshooter
+
+root@vm01:/home/satish# sudo /opt/microsoft/omsagent/bin/troubleshooter
+Checking for python install...
+Checking all necessary python modules are installed...
+Checking all necessary programs are installed...
+Program 'gdb' not installed.
+Please fix above issues before running troubleshooter.
+root@vm01:/home/satish# sudo apt-get install gdb
+
+
+
+### Tech Stack
+
+**Client:** React, Redux, TailwindCSS
+
+**Server:** Node, Express

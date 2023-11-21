@@ -10,6 +10,41 @@ Integrating Azure Monitor with Azure Virtual Machines (VMs) running Linux involv
 - Azure VMs running Linux.
 - Appropriate permissions to install software and configure the VMs.
 
+
+doc-https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agent-linux?tabs=wrapper-script
+
+Python requirement
+Starting from agent version 1.13.27, the Linux agent will support both Python 2 and 3. We always recommend that you use the latest agent.
+
+If you're using an older version of the agent, you must have the virtual machine use Python 2 by default. If your virtual machine is using a distro that doesn't include Python 2 by default, then you must install it. The following sample commands will install Python 2 on different distros:
+
+- Red Hat, CentOS, Oracle:
+```Bash
+   sudo yum install -y python2
+```
+- Ubuntu, Debian:
+```Bash
+   sudo apt-get update
+   
+   sudo apt-get install -y python2
+```
+- SUSE:
+```Bash
+   sudo zypper install -y python2
+```
+Again, only if you're using an older version of the agent, the python2 executable must be aliased to python. Use the following method to set this alias:
+
+Run the following command to remove any existing aliases:
+
+```Bash
+sudo update-alternatives --remove-all python
+```
+Run the following command to create the alias:
+
+```Bash
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2
+```
+
 Step 1: Install the Azure Monitor Agent on Linux VMs
 
 Connect to the VM: You can connect to your Linux VM using SSH. You should have administrative privileges to install the agent.
@@ -19,42 +54,20 @@ Download the Azure Monitor Agent:
 You can download the agent package from the Azure Monitor extension repository.
 
 ```bash
-wget https://github.com/microsoft/OMS-Agent-for-Linux/releases/download/1.13.30-0/omsagent-1.13.30-0.universal.x64.sh
-```
-Ensure that you download the appropriate version of the agent for your Linux distribution.
-Install the Agent:
-
-Run the following command to install the Azure Monitor Agent:
-```bash
-sudo sh ./omsagent-*.universal.x64.sh --install -w <workspace-id> -s <workspace-key>
-```
-Replace <workspace-id> with your Log Analytics workspace ID.
-Replace <workspace-key> with the Log Analytics workspace primary key.
-Configure the Agent:
-
-After the installation is complete, the agent needs to be configured. Edit the agent configuration file, usually located at /etc/opt/microsoft/omsagent/<workspace-id>/conf/omsagent.conf.
-
-```bash
-sudo vi /etc/opt/microsoft/omsagent/<workspace-id>/conf/omsagent.conf
+wget https://raw.githubusercontent.com/Microsoft/OMS-Agent-for-Linux/master/installer/scripts/onboard_agent.sh && sh onboard_agent.sh -w <YOUR WORKSPACE ID> -s <YOUR WORKSPACE PRIMARY KEY> -d opinsights.azure.us
 ```
 Configure the WORKSPACE_ID and WORKSPACE_KEY with the values of your Log Analytics workspace.
 Restart the Agent:
 
-After configuring the agent, restart it to apply the changes.
+After Installation of agent, restart it to apply the changes.
 
 ```bash
-sudo /opt/microsoft/omsagent/bin/service_control restart
+sudo /opt/microsoft/omsagent/bin/service_control restart [<workspace id>]
 ```
 Step 2: Verify Integration
 
 Verify the Agent Status:
-
-To check the agent's status, you can run the following command:
-
-```bash
-sudo /opt/microsoft/omsagent/bin/omsadmin.sh -l
-```
-This command should display information about the agent's status and the workspace it's connected to.
+![App Screenshot](https://github.com/satishvermacoen/Azure-Projects/blob/main/3.%20VM%20Integration%20with%20Azure%20monitor%20and%20Log%20Analytics%20workspace/img/done.png)
 Access Data in Azure Monitor:
 
 In the Azure Portal, go to your Log Analytics workspace, and you should see data coming in from the Linux VMs.
