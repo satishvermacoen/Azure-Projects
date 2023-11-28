@@ -1,0 +1,51 @@
+[
+  {
+    "name": "GetVisitorCounter",
+    "scriptFile": "api.dll",
+    "entryPoint": "Api.Function.GetVisitorCounter.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "req",
+        "direction": "In",
+        "type": "httpTrigger",
+        "authLevel": "Anonymous",
+        "methods": [
+          "get",
+          "post"
+        ],
+        "properties": {}
+      },
+      {
+        "name": "counter",
+        "direction": "In",
+        "type": "cosmosDB",
+        "databaseName": "satish-resume",
+        "containerName": "Counter",
+        "connection": "CosmosDbConnectionString",
+        "id": "1",
+        "partitionKey": "1",
+        "properties": {
+          "supportsDeferredBinding": "True"
+        }
+      },
+      {
+        "name": "NewCounter",
+        "direction": "Out",
+        "type": "cosmosDB",
+        "databaseName": "satish-resume",
+        "containerName": "Counter",
+        "connection": "CosmosDbConnectionString",
+        "properties": {}
+      },
+      {
+        "name": "HttpResponse",
+        "type": "http",
+        "direction": "Out"
+      }
+    ]
+  }
+]
