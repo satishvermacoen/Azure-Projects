@@ -8712,19 +8712,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nirma\\.nuget\\packages\\": {}
+    "C:\\Users\\ramka\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nirma\\Cloud-Work\\Azure-Projects\\5.Azure-Cloud-Resume\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\ramka\\Documents\\Cloud-Directory\\Azure-Project\\Azure-Projects\\5.Azure-Cloud-Resume\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\nirma\\Cloud-Work\\Azure-Projects\\5.Azure-Cloud-Resume\\api\\api.csproj",
-      "packagesPath": "C:\\Users\\nirma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nirma\\Cloud-Work\\Azure-Projects\\5.Azure-Cloud-Resume\\api\\obj\\",
+      "projectPath": "C:\\Users\\ramka\\Documents\\Cloud-Directory\\Azure-Project\\Azure-Projects\\5.Azure-Cloud-Resume\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\ramka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ramka\\Documents\\Cloud-Directory\\Azure-Project\\Azure-Projects\\5.Azure-Cloud-Resume\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nirma\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ramka\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
