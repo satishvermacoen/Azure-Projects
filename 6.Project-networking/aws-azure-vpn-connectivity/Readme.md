@@ -12,7 +12,7 @@ A brief description.
 
 ## Diagram
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/draw.png)
+![App Screenshot](./img/draw.png)
 
 
 ### AZURE Service Requried 
@@ -109,104 +109,104 @@ Then we can test the connectivity betweeen Azure and AWS through our VPN connect
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(23).png)
+![App Screenshot](./img/Screenshot%20(23).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(22).png)
+![App Screenshot](./img/Screenshot%20(22).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(21).png)
+![App Screenshot](./img/Screenshot%20(21).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(20).png)
+![App Screenshot](./img/Screenshot%20(20).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(19).png)
+![App Screenshot](./img/Screenshot%20(19).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(18).png)
+![App Screenshot](./img/Screenshot%20(18).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(17).png)
+![App Screenshot](./img/Screenshot%20(17).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(16).png)
+![App Screenshot](./img/Screenshot%20(16).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(15).png)
+![App Screenshot](./img/Screenshot%20(15).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(14).png)
+![App Screenshot](./img/Screenshot%20(14).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(13).png)
+![App Screenshot](./img/Screenshot%20(13).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(12).png)
+![App Screenshot](./img/Screenshot%20(12).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(11).png)
+![App Screenshot](./img/Screenshot%20(11).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(10).png)
+![App Screenshot](./img/Screenshot%20(10).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(28).png)
+![App Screenshot](./img/Screenshot%20(28).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(27).png)
+![App Screenshot](./img/Screenshot%20(27).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(26).png)
+![App Screenshot](./img/Screenshot%20(26).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(25).png)
+![App Screenshot](./img/Screenshot%20(25).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(24).png)
+![App Screenshot](./img/Screenshot%20(24).png)
 
 Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(8).png)
+![App Screenshot](./img/Screenshot%20(8).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(7).png)
+![App Screenshot](./img/Screenshot%20(7).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(6).png)
+![App Screenshot](./img/Screenshot%20(6).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(5).png)
+![App Screenshot](./img/Screenshot%20(5).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(4).png)
+![App Screenshot](./img/Screenshot%20(4).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(3).png)
+![App Screenshot](./img/Screenshot%20(3).png)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/Screenshot%20(2).png)
+![App Screenshot](./img/Screenshot%20(2).png)

@@ -9,7 +9,7 @@ Run the following command to install phpMyAdmin and related packages
 ```
 sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
 ```
-![App Screenshot](https://github.com/satishvermacoen/Linux-Server-Depoly/blob/main/img/Screenshot%20(38).png)
+![App Screenshot](./Screenshot%20(38).png)
 
 Using this command we installed the following packages:
 
@@ -37,14 +37,14 @@ SELECT user,authentication_string,plugin,host FROM mysql.user;
 
 Exit from the MySQL console by typing exit.
 
-![App Screenshot](https://github.com/satishvermacoen/Linux-Server-Depoly/blob/main/img/Screenshot%20(44).png)
+![App Screenshot](./Screenshot%20(44).png)
 
 Now you can log in using your MySQL password by entering the following command to the MySQL console
 
 ```
 sudo mysql -u root -p
 ```
-![App Screenshot](https://github.com/satishvermacoen/Linux-Server-Depoly/blob/main/img/Screenshot%20(46).png)
+![App Screenshot](./Screenshot%20(46).png)
 ## Step 3 - Configuring a non-root user in MySQL
 
 Since its not a good idea to use root as your login user, we will create another MySQL user named satish to login to the PHPMyAdmin console:
@@ -74,7 +74,7 @@ Go to the browser and type 'http://your_domain_or_IP/phpmyadmin' in your URL bar
 You will be logged in to PHPMyAdmin.
 
 
-![App Screenshot](https://github.com/satishvermacoen/Linux-Server-Depoly/blob/main/img/Screenshot%20(48).png)
+![App Screenshot](./Screenshot%20(48).png)
 
 
 

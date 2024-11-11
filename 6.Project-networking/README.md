@@ -2,13 +2,13 @@
 # Azure LAB-projects
 
 
-### 1. [Azure-AWS VPN connection](https://github.com/satishvermacoen/Azure-LAB/tree/main/aws-azure-vpn-connectivity)
+### 1. [Azure-AWS VPN connection](./aws-azure-vpn-connectivity)
 
 #### How to connect AWS-VPC with AZURE-Virtual Network use of VPN tunneling.
 
 ## Diagram
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/aws-azure-vpn-connectivity/img/draw.png)
+![App Screenshot](./aws-azure-vpn-connectivity/img/draw.png)
 
 
 ### AZURE Service Requried 
@@ -24,11 +24,11 @@
 3. Virtual Private Gateway
 4. Site-to-Site connection
 
-### 2. [Point to Site Multiple Virtual Network](https://github.com/satishvermacoen/Azure-LAB/tree/main/Point%20to%20Site%20Multiple-vnet)
+### 2. [Point to Site Multiple Virtual Network](./Point%20to%20Site%20Multiple-vnet)
 
 ## Diagram
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/Point%20to%20Site%20Multiple-vnet/Azure%20Virtual%20Network%20Peering.drawio.png)
+![App Screenshot](./Point%20to%20Site%20Multiple-vnet/Azure%20Virtual%20Network%20Peering.drawio.png)
 
 ## AZURE Service Requried 
 
@@ -39,11 +39,11 @@
 3. Local Area Gateway 
 4. Public IP for Gateway
 
-### 3. [Site to Site VPN-connection with on-premise](https://github.com/satishvermacoen/Azure-Project-networking/tree/main/Azure-OnPremise-Site-to-Site-VPN-Gateway)
+### 3. [Site to Site VPN-connection with on-premise](./Azure-OnPremise-Site-to-Site-VPN-Gateway)
 
 ## Diagram
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-Project-networking/blob/main/Azure-OnPremise-Site-to-Site-VPN-Gateway/img/diagram.png)
+![App Screenshot](./Azure-OnPremise-Site-to-Site-VPN-Gateway/img/diagram.png)
 
 ## Service Requried 
 
@@ -55,13 +55,13 @@
 6. Creating the site-to-site VPN tunnel
 7. On-premise network(172.31.0.0/24)
 
-### 4. [Route-Table](https://github.com/satishvermacoen/Azure-Project-networking/tree/main/Route_table#route-table)
+### 4. [Route-Table](./Route_table/)
 
 #### How to connect a Route table in vitual network to overwrite system-define-Route and traffic flow with central vitual appliance.
 
 ## Diagram
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-Project-networking/blob/main/Route_table/Diagram.png)
+![App Screenshot](./Route_table/Diagram.png)
 
 
 ## AZURE Service Requried 
@@ -74,7 +74,7 @@
 
 ## What to do.
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-Project-networking/blob/main/Route_table/Diagram2.png)
+![App Screenshot](./Route_table/Diagram2.png)
 
 
 

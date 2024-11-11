@@ -1,7 +1,7 @@
 # Site to Site VPN-connection with on-premise
-![App Screenshot](https://github.com/satishvermacoen/Azure-Project-networking/blob/main/Azure-OnPremise-Site-to-Site-VPN-Gateway/img/diagram.png)
+![App Screenshot](./img/diagram.png)
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-Project-networking/blob/main/Azure-OnPremise-Site-to-Site-VPN-Gateway/img/Screenshot%20(70).png)
+![App Screenshot](./img/Screenshot%20(70).png)
 ## Service Requried 
 
 1. Virtual Network(10.0.0.0/16)
@@ -24,7 +24,7 @@ Subnet address space: 10.0.0.0/24
 
 ### Create a VPN gateway
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-Project-networking/blob/main/Azure-OnPremise-Site-to-Site-VPN-Gateway/img/Screenshot%20(64).png)
+![App Screenshot](./img/Screenshot%20(64).png)
 
 1. In this step, you create the virtual network gateway for your VNet. Creating a gateway can often take 45 minutes or more, depending on the selected gateway SKU.
 
@@ -97,12 +97,12 @@ Once the deployment is complete, you can view the connection in the Connections 
 ### Next Setting on On-premise-site
 
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-Project-networking/blob/main/Azure-OnPremise-Site-to-Site-VPN-Gateway/img/Screenshot%20(65).png)
+![App Screenshot](./img/Screenshot%20(65).png)
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-Project-networking/blob/main/Azure-OnPremise-Site-to-Site-VPN-Gateway/img/Screenshot%20(66).png)
+![App Screenshot](./img/Screenshot%20(66).png)
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-Project-networking/blob/main/Azure-OnPremise-Site-to-Site-VPN-Gateway/img/Screenshot%20(67).png)
+![App Screenshot](./img/Screenshot%20(67).png)
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-Project-networking/blob/main/Azure-OnPremise-Site-to-Site-VPN-Gateway/img/Screenshot%20(68).png)
+![App Screenshot](./img/Screenshot%20(68).png)
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-Project-networking/blob/main/Azure-OnPremise-Site-to-Site-VPN-Gateway/img/Screenshot%20(69).png)
+![App Screenshot](./img/Screenshot%20(69).png)

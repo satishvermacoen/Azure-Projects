@@ -4,7 +4,7 @@ A brief description.
 
 ## Screenshots
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-LAB/blob/main/Point%20to%20Site%20Multiple-vnet/Azure%20Virtual%20Network%20Peering.drawio.png)
+![App Screenshot](./draw.png)
 
 ## AZURE Service Requried 
 

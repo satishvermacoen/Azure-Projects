@@ -8,7 +8,7 @@ A brief description.
 
 ## Diagram
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-Project-networking/blob/main/Route_table/Diagram.png)
+![App Screenshot](./Diagram.png)
 
 
 ## AZURE Service Requried 
@@ -21,7 +21,7 @@ A brief description.
 
 ## What to do.
 
-![App Screenshot](https://github.com/satishvermacoen/Azure-Project-networking/blob/main/Route_table/Diagram2.png)
+![App Screenshot](./Diagram2.png)
 
 ## To create Route table & and Setup the Setting in it.
 
