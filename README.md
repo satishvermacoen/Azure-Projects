@@ -35,5 +35,7 @@ View it live here(https://www.satishverma.cloud/)
 
 This contain few of networking project on azure and aws cloud.
 
+## [7. AzureVM_monolithic_web_application](./7.AzureVM_monolithic_web_application/)
+
 
 ### More on the Way............
