@@ -20,7 +20,7 @@ Integrating Azure Monitor with Azure Virtual Machines (VMs) running Linux involv
 ![Overview](/4.%20loop%20vm%20depoyment/img.png)
 
 -------------------------------
-## [5. Azure-Cloud-Resume](https://github.com/satishvermacoen/Azure-Cloud-Resume.git)
+## [5. Azure-Cloud-Resume](./5.Azure-Cloud-Resume/)
 
 This is my Cloud Resume Challenge built on Azure. It's a static website hosted on Azure Storage, with a visitor counter built on Azure Functions. The website is built with HTML, CSS, and JavaScript. The visitor counter is built with .NET and Azure Functions. 
 
@@ -29,7 +29,7 @@ If you'd like to build your own, here is the YouTube video [video](https://youtu
 ![architecture](5.Azure-Cloud-Resume/architecture.png)
 ## Demo
 
-View it live here(https://www.satishverma.cloud/)
+View it live here(https://www.satishverma.cloud/){Domain is expired }
 
 ## [6. Project-Networking](./6.Project-networking/)
 
