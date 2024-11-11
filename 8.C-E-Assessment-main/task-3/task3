@@ -1,0 +1,72 @@
+
+mkdir appflask
+git clone https://github.com/satishvermacoen/flask-hello-world.git
+
+sudo apt update -y
+sudo apt install python3 -y
+sudo apt install python3-pip -y
+sudo apt install python3.8-venv
+
+python3 -m venv menv
+
+source ./menv/bin/activate
+
+pip3 install -r requirements.txt 
+
+gunicorn --bind 0.0.0.0:8000 wsgi:app
+
+deactivate
+
+sudo vi /etc/systemd/system/flaskapp.service
+
+[Unit]
+Description=Flask Web Application Server using Gunicorn
+After=network.target
+
+[Service]
+User=satish
+Group=www-data
+WorkingDirectory=/home/satish/app/flask-hello-world
+Environment="PATH=/home/satish/app/flask-hello-world/menv/bin"
+ExecStart=/bin/bash -c 'source /home/satish/app/flask-hello-world/menv/bin/activate; gunicorn wsgi:app'
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+sudo systemctl start flask
+
+sudo systemctl status flaskapp
+
+sudo apt-get install nginx -y
+
+sudo vi /etc/nginx/sites-available/flaskapp
+
+server {
+ listen 80;
+ listen [::]:80;
+location / {
+ include proxy_params;
+ proxy_pass http://127.0.0.1:8000;
+ }
+}
+sudo ln -s /etc/nginx/sites-available/flaskapp /etc/nginx/sites-enabled
+
+
+
+The key fingerprint is:
+SHA256:PM6m65au0WZkyHe4SiFicfX5IzUm8TuSZmh5WvNXE5c satishverma.coen@gmail.com  
+The key's randomart image is:
++---[RSA 4096]----+
+|     . .         |
+|    . . +       .|
+| . .   + =   . E |
+|  o. .oo* o   o  |
+|... ++=XS=   o   |
+|.. ..**==.o . .  |
+|    o.=.+. .     |
+|   . =oo  .      |
+|    o==.         |
++----[SHA256]-----+
+
+git remote set-url origin git@github.com:username/repo.git

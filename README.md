@@ -37,5 +37,7 @@ This contain few of networking project on azure and aws cloud.
 
 ## [7. AzureVM_monolithic_web_application](./7.AzureVM_monolithic_web_application/)
 
+## [8.C-E-Assessment-main](./8.C-E-Assessment-main/)
+
 
 ### More on the Way............
