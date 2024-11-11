@@ -31,5 +31,9 @@ If you'd like to build your own, here is the YouTube video [video](https://youtu
 
 View it live here(https://www.satishverma.cloud/)
 
+## [6. Project-Networking](./6.Project-networking/)
+
+This contain few of networking project on azure and aws cloud.
+
 
 ### More on the Way............

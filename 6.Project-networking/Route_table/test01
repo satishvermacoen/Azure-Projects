@@ -1,0 +1,4 @@
+az network route-table create \
+        --name publictable \
+        --resource-group  \
+        --disable-bgp-route-propagation false
